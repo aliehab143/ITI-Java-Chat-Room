@@ -1,0 +1,48 @@
+
+g	java:S112Z"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Î–€ÑŒ1
+h	java:S112´"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Î–€ÑŒ1
+h	java:S112ô"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ï–€ÑŒ1
+j
+java:S11921"MDefine a constant instead of duplicating this literal "192.168.1.18" 7 times.(‡®ÑÌ8Ï–€ÑŒ1
+l
+java:S1192$"JDefine a constant instead of duplicating this literal "Available" 3 times.(¬Á†Îÿÿÿÿÿ8Ï–€ÑŒ1
+i
+java:S11924"GDefine a constant instead of duplicating this literal "status" 3 times.(‹ŠÒúÿÿÿÿ8Ï–€ÑŒ1
+F
+java:S1604Ö"(Make this anonymous inner class a lambda(ÉãÃ®8Ğ–€ÑŒ1
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(“…—¯ÿÿÿÿÿ8Ğ–€ÑŒ1
+k
+java:S2095•"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(é®¼Òùÿÿÿÿ8â—€ÑŒ1
+j
+java:S2095Ÿ"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(õ½ÍÖ8â—€ÑŒ1
+s	java:S116"WRename this field "msg_received" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ê‚¸Ê8â—€ÑŒ1
+t	java:S116"XRename this field "Messages_Area" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡ØÃ†8â—€ÑŒ1
+}	java:S116"\Rename this field "Message_TextField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›ì‹”úÿÿÿÿ8â—€ÑŒ1
+s	java:S116""XRename this field "Online_Button" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øÅ„8â—€ÑŒ1
+t	java:S116'"SRename this field "Userlist" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£¼íÅıÿÿÿÿ8â—€ÑŒ1
+j	java:S100i"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùïâ´8é—€ÑŒ1
+o	java:S100{"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Éµ¸™ıÿÿÿÿ8ê—€ÑŒ1
+p	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ú¹Çûÿÿÿÿ8ë—€ÑŒ1
+d	java:S899“"BDo something with the "boolean" value returned by "createNewFile".(Ğ’Íùÿÿÿÿ8í—€ÑŒ1
+p	java:S100š"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©ïı•üÿÿÿÿ8î—€ÑŒ1
+[	java:S106"9Replace this use of System.out or System.err by a logger.(×”îØùÿÿÿÿ8î—€ÑŒ1
+[	java:S106¥"9Replace this use of System.out or System.err by a logger.(ñ—¸½úÿÿÿÿ8ğ—€ÑŒ1
+k	java:S100½"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Èîî¬8ğ—€ÑŒ1
+S
+java:S1874Å"0Remove this use of "readLine"; it is deprecated.(Ù¢©öøÿÿÿÿ8ñ—€ÑŒ1
+k	java:S100Õ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“ßô8ò—€ÑŒ1
+p
+java:S3776Õ"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(“ßô8ò—€ÑŒ1
+[	java:S106é"9Replace this use of System.out or System.err by a logger.(êÓæøùÿÿÿÿ8õ—€ÑŒ1
+N
+java:S1874î"0Remove this use of "readLine"; it is deprecated.(Óê×8õ—€ÑŒ1
+Z
+java:S1128"8Remove this unused import 'javafx.application.Platform'.(§“óùÿÿÿÿ8ö—€ÑŒ1
+S
+java:S1128"6Remove this unused import 'javafx.event.EventHandler'.(º»û˜8ö—€ÑŒ1
+S
+java:S1128"7Remove this unused import 'javafx.scene.control.Alert'.(ÊÇê:8ö—€ÑŒ1
+R
+java:S1128"5Remove this unused import 'javafx.stage.FileChooser'.(–¹ë8ö—€ÑŒ1
+Q
+java:S1128"5Remove this unused import 'javafx.stage.WindowEvent'.(‚ƒ×r8ö—€ÑŒ1

@@ -1,0 +1,17 @@
+
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(´ºƒ
+B
+java:S1602",Remove useless curly braces around statement(Êè½Ê
+B
+java:S1172",Remove this unused method parameter "stage".(§ïÿ‰
+S
+java:S1128"8Remove this unused import 'javafx.scene.control.Button'.(Ë Í‹øÿÿÿÿ
+P
+java:S1128":Remove this unused import 'javafx.scene.layout.StackPane'.(™÷èò
+O
+java:S1128
+"4Remove this unused import 'java.io.DataInputStream'.(”•úºÿÿÿÿÿ
+F
+java:S1128"0Remove this unused import 'java.io.PrintStream'.(×ê’
+B
+java:S1128",Remove this unused import 'java.net.Socket'.(­‡àú

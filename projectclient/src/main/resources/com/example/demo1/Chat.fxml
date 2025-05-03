@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="710.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.Chat_Controller">
+   <children>
+      <ImageView fitHeight="487.0" fitWidth="733.0" layoutX="-20.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@../../../Images/back5.jpeg" />
+         </image>
+      </ImageView>
+      <TextArea fx:id="Messages_Area" blendMode="MULTIPLY" editable="false" layoutX="42.0" layoutY="171.0" prefHeight="236.0" prefWidth="321.0">
+         <font>
+            <Font size="14.0" />
+         </font></TextArea>
+      <TextField fx:id="Message_TextField" blendMode="MULTIPLY" layoutX="47.0" layoutY="417.0" prefHeight="31.0" prefWidth="311.0" promptText="Enter Message..." />
+      <TextArea fx:id="Userlist" blendMode="MULTIPLY" editable="false" layoutX="489.0" layoutY="171.0" prefHeight="236.0" prefWidth="194.0">
+         <font>
+            <Font size="18.0" />
+         </font></TextArea>
+      <Button layoutX="412.0" layoutY="417.0" mnemonicParsing="false" onAction="#Send_Message" style="-fx-background-color: #4998a7;" text="Send" />
+      <Text blendMode="EXCLUSION" fill="WHITE" layoutX="118.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wolves Chat Room">
+         <font>
+            <Font name="Dubai Regular" size="56.0" />
+         </font>
+      </Text>
+      <RadioButton blendMode="MULTIPLY" layoutX="620.0" layoutY="92.0" mnemonicParsing="false" onAction="#satuts_Clicked" text="Status">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></RadioButton>
+      <Text layoutX="143.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chat Room">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="538.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User List">
+         <font>
+            <Font name="Dubai Regular" size="24.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="95.0" fitWidth="95.0" layoutX="6.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/Wolves.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="534.0" layoutY="417.0" mnemonicParsing="false" onAction="#Refresh_client_Userlist" style="-fx-background-color: #4998a7;" text="Refresh" />
+      <Button layoutX="612.0" layoutY="48.0" mnemonicParsing="false" onAction="#Save_Chat" style="-fx-background-color: #4998a7;" text="Save Chat" />
+      <Line endX="100.0" layoutX="118.0" layoutY="113.0" startX="-100.0" stroke="#ff8000" strokeDashOffset="25.0" strokeLineJoin="ROUND" strokeMiterLimit="25.0" strokeType="OUTSIDE" strokeWidth="2.0" />
+      <Line endX="100.0" layoutX="322.0" layoutY="113.0" startX="-100.0" stroke="#ff8000" strokeLineJoin="ROUND" strokeType="OUTSIDE" strokeWidth="2.0" />
+      <Line endX="100.0" layoutX="475.0" layoutY="113.0" startX="-100.0" stroke="#ff8000" strokeDashOffset="25.0" strokeLineJoin="ROUND" strokeMiterLimit="25.0" strokeType="OUTSIDE" strokeWidth="2.0" />
+   </children>
+</AnchorPane>

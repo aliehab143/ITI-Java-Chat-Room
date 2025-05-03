@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="710.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.server.Admin">
+   <children>
+      <ImageView fitHeight="506.0" fitWidth="745.0" layoutX="-3.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/back10.jpeg" />
+         </image>
+      </ImageView>
+      <Text blendMode="EXCLUSION" fill="WHITE" layoutX="118.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wolves Admin Room">
+         <font>
+            <Font name="Dubai Regular" size="56.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="95.0" fitWidth="95.0" layoutX="6.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/Wolves.png" />
+         </image>
+      </ImageView>
+      <Line endX="100.0" layoutX="118.0" layoutY="113.0" startX="-100.0" stroke="#ff8000" strokeDashOffset="25.0" strokeLineJoin="ROUND" strokeMiterLimit="25.0" strokeType="OUTSIDE" strokeWidth="2.0" />
+      <Line endX="100.0" layoutX="322.0" layoutY="113.0" startX="-100.0" stroke="#ff8000" strokeLineJoin="ROUND" strokeType="OUTSIDE" strokeWidth="2.0" />
+      <Line endX="100.0" layoutX="504.0" layoutY="113.0" startX="-100.0" stroke="#ff8000" strokeDashOffset="25.0" strokeLineJoin="ROUND" strokeMiterLimit="25.0" strokeType="OUTSIDE" strokeWidth="2.0" />
+      <Button blendMode="COLOR_BURN" layoutX="127.0" layoutY="319.0" mnemonicParsing="false" onAction="#create_user" text="Create User" />
+      <Button blendMode="COLOR_BURN" layoutX="127.0" layoutY="372.0" mnemonicParsing="false" onAction="#Update_user_info" text="Update User Info" />
+      <Button blendMode="COLOR_BURN" layoutX="127.0" layoutY="272.0" mnemonicParsing="false" onAction="#Delete_User" text="Delete User" />
+      <Button fx:id="read" blendMode="COLOR_BURN" layoutX="127.0" layoutY="232.0" mnemonicParsing="false" onAction="#Read_User_Info" text="Read User">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <ImageView fitHeight="31.0" fitWidth="30.0" layoutX="75.0" layoutY="225.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/User.png" />
+         </image>
+      </ImageView>
+      <ImageView blendMode="COLOR_BURN" fitHeight="37.0" fitWidth="37.0" layoutX="70.0" layoutY="369.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/update%20user.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="43.0" layoutX="69.0" layoutY="316.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/create%20user.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="43.0" fitWidth="46.0" layoutX="67.0" layoutY="266.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/delete.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

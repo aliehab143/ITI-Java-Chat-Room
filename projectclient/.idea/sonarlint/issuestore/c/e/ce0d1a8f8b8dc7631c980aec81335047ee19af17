@@ -1,0 +1,17 @@
+
+\
+java:S1192G"GDefine a constant instead of duplicating this literal "Error " 3 times.(ÏûÆ
+\
+java:S1192F"FDefine a constant instead of duplicating this literal "Error" 3 times.(µûø–
+f	java:S117$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øî†Š
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(èÎßƒúÿÿÿÿ
+w	java:S116"]Rename this field "Username_TextField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ØóìÙøÿÿÿÿ
+w	java:S116"]Rename this field "Password_TextField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›ü´ëıÿÿÿÿ
+z	java:S116"eRename this field "Password_confirm_TextField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úşÙë
+h	java:S100 "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–®€ôşÿÿÿÿ
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(œÅ•úÿÿÿÿ
+N	java:S106%"9Replace this use of System.out or System.err by a logger.(Éáğè
+N	java:S106&"9Replace this use of System.out or System.err by a logger.(ƒÜ¬ú
+K
+java:S18742"0Remove this use of "readLine"; it is deprecated.(”¤¡Äøÿÿÿÿ
+h	java:S100d"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åáÖ†ùÿÿÿÿ

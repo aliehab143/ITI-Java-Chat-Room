@@ -1,0 +1,31 @@
+
+f	java:S117@"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜ğÒ†
+f	java:S117a"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ì²Ã­
+k	java:S117b"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ğşÇùÿÿÿÿ
+r
+java:S1104"\Make Current_username a static final constant or non-public and provide accessors if needed.(ÒÒ¦ä
+L
+java:S1444"6Make this "public static Current_username" field final(ÒÒ¦ä
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ñÊ£Ã
+w	java:S116"]Rename this field "Username_TextField" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ØóìÙøÿÿÿÿ
+r	java:S116"XRename this field "password_text" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È¯ˆ—ıÿÿÿÿ
+q
+java:S3008"[Rename this field "Current_username" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÒÒ¦ä
+h	java:S100&"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑÆÎ¡ıÿÿÿÿ
+P
+java:S11173"5Rename "t" which hides the field declared at line 24.(”¤¡Äøÿÿÿÿ
+K
+java:S18743"0Remove this use of "readLine"; it is deprecated.(”¤¡Äøÿÿÿÿ
+Q
+java:S2696="6Make the enclosing method "static" or remove this set.(ñ¨şÿÿÿÿÿ
+c	java:S100Y"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡„õµ
+h	java:S100`"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(á¹ä²şÿÿÿÿ
+R
+java:S1128	"5Remove this unused import 'javafx.scene.image.Image'.(‰¿½Ç8¬„ĞŒ1
+[
+java:S1128
+"9Remove this unused import 'javafx.scene.image.ImageView'.(áÿ®Ãüÿÿÿÿ8¬„ĞŒ1
+\
+java:S1128":Remove this unused import 'javafx.scene.input.MouseEvent'.(˜¬‹æÿÿÿÿÿ8¬„ĞŒ1
+U
+java:S1128"3Remove this unused import 'javafx.scene.text.Text'.(˜ÿ‡Üşÿÿÿÿ8¬„ĞŒ1

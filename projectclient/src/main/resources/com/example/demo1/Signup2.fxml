@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.Register_Controller">
+   <children>
+      <ImageView fitHeight="482.0" fitWidth="721.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/project%20image.jpeg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="Password_TextField" blendMode="RED" layoutX="67.0" layoutY="256.0" promptText="Password" />
+      <TextField fx:id="Username_TextField" blendMode="RED" layoutX="67.0" layoutY="183.0" promptText="Username" />
+      <ImageView blendMode="RED" fitHeight="31.0" fitWidth="28.0" layoutX="21.0" layoutY="185.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/user3.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView blendMode="RED" fitHeight="31.0" fitWidth="28.0" layoutX="21.0" layoutY="254.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/lock4.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="162.0" fitWidth="161.0" layoutX="449.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/Wolves.png" />
+         </image>
+      </ImageView>
+      <Text blendMode="RED" layoutX="49.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wolves Chat">
+         <font>
+            <Font name="Dubai Regular" size="60.0" />
+         </font>
+      </Text>
+      <Button blendMode="GREEN" layoutX="420.0" layoutY="348.0" mnemonicParsing="false" onAction="#Sign_in" style="-fx-background-color: #ffffff;" text="Register" />
+      <Button blendMode="GREEN" layoutX="420.0" layoutY="407.0" mnemonicParsing="false" onAction="#Signup_Cancel" prefHeight="25.0" prefWidth="60.0" style="-fx-background-color: #ffffff;" text="Cancel" />
+      <ImageView blendMode="RED" fitHeight="31.0" fitWidth="28.0" layoutX="21.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/lock4.jpeg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="Password_confirm_TextField" blendMode="RED" layoutX="67.0" layoutY="323.0" promptText="Confirm Password" />
+   </children>
+</AnchorPane>

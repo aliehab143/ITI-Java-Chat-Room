@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="710.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.server.Server_Gui">
+   <children>
+      <ImageView fitHeight="506.0" fitWidth="745.0" layoutX="-3.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/back10.jpeg" />
+         </image>
+      </ImageView>
+      <Text blendMode="EXCLUSION" fill="WHITE" layoutX="118.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wolves Server Room">
+         <font>
+            <Font name="Dubai Regular" size="56.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="95.0" fitWidth="95.0" layoutX="6.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/Wolves.png" />
+         </image>
+      </ImageView>
+      <Line endX="100.0" layoutX="118.0" layoutY="113.0" startX="-100.0" stroke="#ff8000" strokeDashOffset="25.0" strokeLineJoin="ROUND" strokeMiterLimit="25.0" strokeType="OUTSIDE" strokeWidth="2.0" />
+      <Line endX="100.0" layoutX="322.0" layoutY="113.0" startX="-100.0" stroke="#ff8000" strokeLineJoin="ROUND" strokeType="OUTSIDE" strokeWidth="2.0" />
+      <Line endX="100.0" layoutX="515.0" layoutY="113.0" startX="-100.0" stroke="#ff8000" strokeDashOffset="25.0" strokeLineJoin="ROUND" strokeMiterLimit="25.0" strokeType="OUTSIDE" strokeWidth="2.0" />
+      <TextArea fx:id="avaliable_server_list" blendMode="MULTIPLY" editable="false" layoutX="36.0" layoutY="192.0" prefHeight="244.0" prefWidth="200.0">
+         <font>
+            <Font size="18.0" />
+         </font></TextArea>
+      <TextArea fx:id="Busy_server_list" blendMode="MULTIPLY" editable="false" layoutX="256.0" layoutY="192.0" prefHeight="244.0" prefWidth="200.0">
+         <font>
+            <Font size="18.0" />
+         </font></TextArea>
+      <TextArea fx:id="Offline_server_list" blendMode="MULTIPLY" editable="false" layoutX="493.0" layoutY="192.0" prefHeight="244.0" prefWidth="200.0">
+         <font>
+            <Font size="18.0" />
+         </font></TextArea>
+      <Text fill="#c26d57" layoutX="78.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Available" wrappingWidth="147.283203125">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text fill="#c26d57" layoutX="312.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Busy">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text fill="#c26d57" layoutX="548.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Offline">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Button blendMode="SOFT_LIGHT" layoutX="322.0" layoutY="441.0" mnemonicParsing="false" onAction="#Admin_Screen" text="Admin" />
+   </children>
+</AnchorPane>

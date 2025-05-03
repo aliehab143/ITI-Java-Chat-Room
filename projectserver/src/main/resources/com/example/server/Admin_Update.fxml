@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="710.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.server.Admin">
+   <children>
+      <ImageView fitHeight="503.0" fitWidth="771.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/back10.jpeg" />
+         </image>
+      </ImageView>
+      <Text blendMode="EXCLUSION" fill="WHITE" layoutX="118.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wolves Admin Room">
+         <font>
+            <Font name="Dubai Regular" size="56.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="95.0" fitWidth="95.0" layoutX="6.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/Wolves.png" />
+         </image>
+      </ImageView>
+      <Line endX="100.0" layoutX="118.0" layoutY="113.0" startX="-100.0" stroke="#ff8000" strokeDashOffset="25.0" strokeLineJoin="ROUND" strokeMiterLimit="25.0" strokeType="OUTSIDE" strokeWidth="2.0" />
+      <Line endX="100.0" layoutX="322.0" layoutY="113.0" startX="-100.0" stroke="#ff8000" strokeLineJoin="ROUND" strokeType="OUTSIDE" strokeWidth="2.0" />
+      <Line endX="100.0" layoutX="504.0" layoutY="113.0" startX="-100.0" stroke="#ff8000" strokeDashOffset="25.0" strokeLineJoin="ROUND" strokeMiterLimit="25.0" strokeType="OUTSIDE" strokeWidth="2.0" />
+      <Text blendMode="EXCLUSION" fill="WHITE" layoutX="16.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Update User Info">
+         <font>
+            <Font name="Dubai Regular" size="37.0" />
+         </font>
+      </Text>
+      <Line endX="100.0" layoutX="118.0" layoutY="195.0" startX="-100.0" stroke="#ff8000" strokeDashOffset="25.0" strokeLineJoin="ROUND" strokeMiterLimit="25.0" strokeType="OUTSIDE" strokeWidth="2.0" />
+      <Line endX="100.0" layoutX="187.0" layoutY="195.0" startX="-100.0" stroke="#ff8000" strokeDashOffset="25.0" strokeLineJoin="ROUND" strokeMiterLimit="25.0" strokeType="OUTSIDE" strokeWidth="2.0" />
+      <TextField fx:id="username_ipdate_password" layoutX="65.0" layoutY="268.0" promptText="Username..." />
+      <TextField fx:id="new_pasword_update" layoutX="65.0" layoutY="328.0" promptText="New Password..." />
+      <ImageView blendMode="MULTIPLY" fitHeight="37.0" fitWidth="37.0" layoutX="13.0" layoutY="322.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/lock3.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView blendMode="MULTIPLY" fitHeight="31.0" fitWidth="45.0" layoutX="19.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/user3.png" />
+         </image>
+      </ImageView>
+      <Button blendMode="COLOR_BURN" layoutX="370.0" layoutY="402.0" mnemonicParsing="false" onAction="#update_passowrd" text="Update" />
+   </children>
+</AnchorPane>
